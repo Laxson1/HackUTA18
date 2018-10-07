@@ -9,9 +9,10 @@
     <Button
         android:id="@+id/homepage_to_wkoutbuddynearme"
         android:layout_width="216dp"
-        android:layout_height="41dp"
-        android:layout_marginBottom="40dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="16dp"
         android:onClick="toWorkoutBuddiesNearMe"
+        android:text="Close Workout Buddies"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,40 +22,29 @@
 
     <Button
         android:id="@+id/homepage_to_settings"
-        android:layout_width="85dp"
-        android:layout_height="0dp"
+        android:layout_width="94dp"
+        android:layout_height="54dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="4dp"
         android:layout_marginBottom="10dp"
         android:onClick="toSettings"
+        android:text="Settings"
         app:layout_constraintBottom_toTopOf="@+id/fragment"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="@string/homepage_to_settings" />
 
-    <fragment
-        android:id="@+id/fragment"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="51dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="25dp"
-        app:layout_constraintBottom_toTopOf="@+id/homepage_to_gymnearme"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </fragment>
 
     <Button
         android:id="@+id/homepage_to_gymnearme"
         android:layout_width="159dp"
-        android:layout_height="37dp"
-        android:layout_marginBottom="101dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="80dp"
         android:onClick="toGymsNearMe"
+        android:text="Close Gyms"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fragment"
         tools:text="@string/homepage_to_gymnearme" />

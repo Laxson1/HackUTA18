@@ -22,9 +22,9 @@ import android.view.View;
             Intent intent = new Intent(this, homePage.class);
             startActivity(intent);
         }
-        public void toWourkoutBuddies(View view){
+        public void toWorkoutBuddies(View view){
             // button clicked
-            Intent intent = new Intent(this, WorkoutsNearMe.class);
+            Intent intent = new Intent(this, workoutBuddiesNearMe.class);
             //start next page and go to it
             startActivity(intent);
         }

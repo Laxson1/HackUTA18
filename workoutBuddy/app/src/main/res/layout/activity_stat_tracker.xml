@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="72dp"
         android:layout_marginBottom="82dp"
-        android:text="Creating a Profile"
+        android:text="Create a Profile"
         android:textAlignment="center"
         android:textSize="40sp"
         android:textStyle="bold"
