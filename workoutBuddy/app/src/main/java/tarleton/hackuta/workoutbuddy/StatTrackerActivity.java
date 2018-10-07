@@ -16,6 +16,7 @@ public class StatTrackerActivity extends AppCompatActivity {
     }
     public void createProfile(View view) {
         // button clicked
+        //not working
         Intent intent = new Intent(StatTrackerActivity.this, homePage.class);
         //save profile name and email
         //EditText profile_Name = findViewById(R.id.profile_name);
