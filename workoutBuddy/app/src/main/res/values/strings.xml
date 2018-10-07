@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">WorkoutBuddy</string>
+    <string name="home_page">Home</string>
+    <string name="settings_name">Settings</string>
+    <string name="gyms_name">Gyms</string>
+    <string name="workoutbuddy_name">Buddies</string>
+    <string name="workouts_name">Workouts</string>
+
+    <string name="account_name">Enter profile name</string>
+    <string name="button_createProfile">Create Profile</string>
+    <string name="account_email">Enter email</string>
+    <string name="onetime_title">Creating a Profile</string>
+    <string name="dropdown_sex">Select sex</string>
+    <string-array name="sex_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="range_array">
+        <item>10 miles</item>
+        <item>25 miles</item>
+        <item>50 miles</item>
+    </string-array>
+    <string name="homepage_to_gymnearme">Close gyms</string>
+    <string name="homepage_to_wkoutbuddynearme">Close Workout Buddies</string>
+    <string name="homepage_to_settings">Settings</string>
+    <string name="gymsNearMe_search">Search</string>
+    <string name="go_back">Back</string>
+    <string name="change_settings_title">Change Settings</string>
+
 </resources>

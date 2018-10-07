@@ -1,0 +1,20 @@
+package tarleton.hackuta.workoutbuddy;
+
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+
+public class gymsNearMe extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_gyms_near_me);
+    }
+
+    public void backToHome(View view){
+        Intent intent = new Intent(this, homePage.class);
+        startActivity(intent);
+    }
+}
